@@ -337,7 +337,7 @@
         // Theme management
         function getStoredTheme() {
                 try {
-                        return localStorage.getItem(THEME_STORAGE_KEY) || 'auto';
+                        return localStorage.getItem(THEME_STORAGE_KEY) || 'dark';
                 } catch (error) {
                         return 'auto';
                 }
